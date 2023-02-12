@@ -1,0 +1,224 @@
+.bankcard-1-body {
+    border-radius: 15px;
+    background-color: #212D63;
+}
+
+#bankcard-1 {
+    background: #FFFFFF;
+    position: relative;
+}
+
+.input-bankcard-1-details{
+    background: #FFFFFF;
+    border: 0.4px solid #FFCE48;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 13px !important;
+}
+
+.cc-Country-BC-1 {
+    background: #212D63;
+    border: 0.9px solid #FFCE48;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 18px !important;
+    color: #ECE4E4;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.cc-Country-BC-1 option{
+    color: #ECE4E4;
+}
+
+/*bank card border and all*/
+#bankcard-1-form-main{
+    background: #F7FAFC;
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+}
+
+#bankcard-1-validate {
+    background:  #394eac !important;
+    box-shadow: #dcd6d6!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 10px !important;
+}
+
+.bankcard-1-input {
+    border: 0.4px solid #FFCE48;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #212D63;
+    height: 40px;
+    font-size: 16px !important;
+    color: #ECE4E4;
+    box-sizing: border-box;  
+}
+
+.bankcard-1-input:focus {
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #212D63;
+    height: 38px;
+    box-sizing: border-box;
+    font-size: 16px !important;
+    color: #ECE4E4;
+    
+}
+.bankcard-1-input input::placeholder {
+    font-size: 18px !important;
+    color: #ECE4E4 !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.bankcard-1-form-label {
+    margin-bottom: 14px !important;
+    margin-bottom: 0px !important;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.animation-card-1{
+    display:none;
+}
+
+.card-bankcard-1-erroMessage-div{
+    margin: 0.25rem 0 0.5rem 0.5rem !important;
+    padding-top: 0% !important;
+    margin-top: 3px !important;
+}
+
+.card-bankcard-1-erroMessage-div p{
+    position: absolute;
+    color: #FF0000 !important;
+    font-size: 14px !important;
+}
+
+.bankcard-1-cardTypes {
+    position: relative;
+    top: 2.6rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #868686 !important;
+}
+
+.bankcard-1-cardicons {
+    position: absolute;
+    top: 9.1rem;
+    right: 20.1rem;
+    font-size: 1.2rem;
+    color: #868686 !important; 
+}
+
+.bankcard-1-cvcicon {
+    position: relative;
+    justify-content: space-between;
+    top: 36px;
+    right: 16px;
+    margin: -1px -6px 5px;
+    font-size: 16px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+
+}
+
+@media all and (max-width:480px) {
+    .bankcard-1-mobile-image {
+        display: none;
+        position: relative;
+        float: right;
+        width: 30px;
+        height: 30px;
+        overflow-x: hidden;
+        right: -17.8rem;
+        top: .2 rem;
+      }
+      .animation-card-1{
+        display:initial;
+        position: relative;
+        top: 2.2rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
+        width: 30px;
+        height: 30px;
+        color: #868686 !important;
+        background-image: url('../bankcard-1-images/Visa.png');
+        background-size: cover;
+        animation-name: bankcard-1-image-animation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes bankcard-1-image-animation {
+        0% {background-image: url('../bankcard-1-images/Visa.png');}
+        25% {background-image: url('../bankcard-1-images/marstercard.png');}
+        50% {background-image: url('../bankcard-1-images/americanexpress.png');}
+      }
+
+    .card-bankcard-1-erroMessage-div p{
+        position: relative;
+        color: #FF0000 !important;
+        font-size: 14px !important;
+        margin-bottom: -1.7rem;
+        margin-top: 0rem;
+    }
+    .bankcard-1-form-label {
+        margin-bottom: 14px !important;
+        margin-bottom: 0px !important;
+        color: white !important;
+        font-size: 16px !important;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    #bankcard-1-validate {
+        background:  #394eac !important;
+        box-shadow: #dcd6d6!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto;
+        border-color: blue;
+    } 
+
+    .container-bankcard-1{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .bankcard-1-body {
+        padding-right:15px;
+        padding-left: 15px;
+    }
+
+}
+
+@media all and (min-width: 481px) { 
+    .bankcard-1-cardicons {
+        position: relative;
+        top: 2.1rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
+        color: #868686 !important;
+       
+    }
+
+} 

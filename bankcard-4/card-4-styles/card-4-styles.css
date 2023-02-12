@@ -1,0 +1,281 @@
+@import url('https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold');
+
+* {
+    box-sizing: border-box;
+}
+
+.card-4-body {
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #064887;
+}
+
+#card-4 {
+    background: #FFFFFF;
+    position: relative;
+}
+
+.input-card-4-details{
+    background: #FFFFFF;
+    border: 0.4px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 13px !important;
+}
+
+
+.card-4-select-country {
+    background: #F6F8FA;
+    border: 0.9px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 18px !important;
+    color: #30313D;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.card-4-select-country option{
+    color: #30313D;
+}
+
+
+
+.card-4-form-main{
+    background: #F7FAFC;
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+}
+
+#card-4-button {
+    background: #064887;
+    width: 15rem;
+    height: 3rem;
+    font-size: 18px ;
+    border-radius: 20px ;
+    box-shadow: #dcd6d6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#card-4-button:hover{
+    background: #4fa2ef;
+    color: #FFFFFF;
+}
+
+.card-4-input {
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #F6F8FA;
+    height: 40px;
+    font-size: 16px !important;
+    color: #30313D;
+    box-sizing: border-box;
+    
+}
+
+.card-4-input:focus {
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #ccced08f;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 16px !important;
+    color: #30313D;
+    
+}
+.card-4-input input::placeholder {
+    font-size: 18px !important;
+    color: #30313D !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-4-form-label {
+    margin-bottom: 14px !important;
+    margin-bottom: 0px !important;
+    color: #30313D !important;
+    font-size: 18px !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.animation-card-4 {
+ display: none;
+  }
+
+
+.card-cardform-4-erroMessage-div{
+    margin: 0.25rem 0 0.5rem 0.5rem !important;
+    padding-top: 0% !important;
+    margin-top: 3px !important;
+
+}
+
+.card-cardform-4-erroMessage-div p{
+    position: absolute;
+    color: #FF0000 !important;
+    font-size: 14px !important;
+ 
+}
+
+
+.card-4-cardicons {
+    position: absolute;
+    top: 5.8rem;
+    right: 20.1rem;
+    font-size: 1.2rem;
+    color: #868686 !important;
+}
+
+
+
+ 
+ .card-4-cvcicon {
+    position: relative;
+    justify-content: space-between;
+    top: 35px;
+    right: 16px;
+    margin: -1px -6px 5px;
+    font-size: 16px;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+
+}
+
+@media all and (max-width: 480px) {
+    .card-4-mobile-image {
+        display: none;
+        position: absolute;
+        z-index: 2;
+        float: right;
+        overflow-x: hidden;
+        right: -17.8rem;
+        top: 3.3rem;
+      }
+      p {
+      margin-top: 0;
+      margin-bottom: -1.5rem !important;
+     }
+
+      .animation-card-4{
+        display:initial;
+        position: relative;
+        top: 2.2rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
+        width: 30px;
+        height: 30px;
+        color: #030303 !important;
+        background-image: url('../card-4-images/Visa.png');
+        background-size: cover;
+        animation-name: card-4-image-animation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes card-4-image-animation {
+        0% {background-image: url('../card-4-images/Visa.png');}
+        25% {background-image: url('../card-4-images/marstercard.png');}
+        50% {background-image: url('../card-4-images/americanexpress.png');}
+      }
+
+     
+      
+      .card-cardform-4-erroMessage-div p{
+        position: relative;
+        color: #FF0000 !important;
+        font-size: 14px !important;
+    }
+    .card-4-form-label {
+        margin-bottom: 14px !important;
+        margin-bottom: 0px !important;
+        color: #30313D !important;
+        font-size: 16px !important;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    #card-4-button {
+        background:  #064887;
+        width: 13rem;
+        height: 3rem;
+        font-size: 0.8rem;
+        border-radius: 20px ;
+        box-shadow: #dcd6d6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 5px ;
+    } 
+    #card-4-button:hover    {
+        background: #4fa2ef;
+        color: #FFFFFF;
+    }
+    .card-4-margin{
+        margin:auto 1px !important;
+        
+    }
+    .container-bankcard-4{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .card-4-body {
+        padding-right:15px;
+        padding-left: 15px;
+    }
+      #card-4-button {
+        background:  #064887 !important;
+        width: 14rem;
+        height: 3rem;
+        font-size: 16px !important;
+        border-radius: 20px !important;
+        box-shadow: #dcd6d6!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 35px !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .card-4-cvcicon {
+        position: relative;
+        justify-content: space-between;
+        top: 32px;
+        right: 16px;
+        margin: -1px -6px 5px;
+        font-size: 16px;
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    
+    }
+
+}
+
+@media all and (min-width: 481px) { 
+    .card-4-cardicons {
+        position: relative;
+        top: 2.1rem;
+        right: 0.5rem;
+        font-size: 1.2rem; 
+    }
+
+}

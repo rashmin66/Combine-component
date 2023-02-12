@@ -1,0 +1,18 @@
+.partners-1-h2 {
+    color: #0D2C4A;
+}
+
+.partners-1-subheading {
+    font-weight: 500;
+    color: #9A9A9A;
+}
+
+.partner-1-brand-icon {
+    transform: scale(0.5);
+}
+
+@media all and (max-width: 1024px) {
+    .partner-1-brand-icon {
+        transform: scale(0.4);
+    }
+}

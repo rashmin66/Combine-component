@@ -1,0 +1,40 @@
+.partners-2-container {
+    background: #263238;
+}
+
+.partners-2-h2 {
+    color: #FFFFFF;
+}
+
+.partners-2-subheading {
+    color: #9A9A9A;
+}
+
+.partner-2-brand-icon {
+    mask: white;
+    transform: scale(0.5);
+}
+
+@media all and (max-width: 1024px) {
+    .partner-2-brand-icon {
+        transform: scale(0.4);
+    }
+}
+
+/* Infiinite Slide Animation */
+.partners-2-slider {
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+}
+
+.partners-2-slide-track {
+	animation: partners-2-scroll-animation 50s linear infinite;
+	display: flex;
+	width: calc(200px * 14);
+}
+
+@keyframes partners-2-scroll-animation {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}

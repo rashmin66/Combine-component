@@ -1,0 +1,283 @@
+@import url('https://db.onlinewebfonts.com/c/000833a3a58fb083c44b9de42c2ff0a2?family=Gilroy+SemiBold');
+
+* {
+    box-sizing: border-box;
+}
+
+.card-2-body {
+    border-radius: 15px;
+    background-color: #1A1F36;
+    
+}
+
+#card-2 {
+    background: #FFFFFF;
+    position: relative;
+}
+
+.input-card-2-details{
+    background: #FFFFFF;
+    border: 0.4px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 13px !important;
+}
+
+
+.card-2-select-country {
+    background: #30313D;
+    border: 0.9px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    font-size: 18px !important;
+    color: #ECE4E4;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.card-2-select-country option{
+    color: #ECE4E4;
+}
+
+
+
+#card-2-form-main{
+    background: #F7FAFC;
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+}
+
+#card-2-validate {
+    background:  #30313D !important;
+    width: 15rem;
+    height: 3rem;
+    font-size: 18px !important;
+    border-radius: 20px !important;
+    box-shadow: #dcd6d6!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: auto;
+    margin-top: 35px !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+
+.card-2-input {
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #30313D;
+    height: 40px;
+    font-size: 16px !important;
+    color: #ECE4E4;
+    box-sizing: border-box;
+    
+}
+
+.card-2-input:focus {
+    border: 0.4px solid #E6E6E6;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+    background: #30313D;
+    height: 40px;
+    box-sizing: border-box;
+    font-size: 16px !important;
+    color: #ECE4E4;
+    
+}
+.card-2-input input::placeholder {
+    font-size: 18px !important;
+    color: #ECE4E4 !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card-2-form-label {
+    margin-bottom: 14px !important;
+    margin-bottom: 0px !important;
+    color: white !important;
+    font-size: 18px !important;
+    font-weight: 300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.animation-card-2 {
+ display: none;
+  }
+
+
+  .submit-margin-top-card-2 {
+    margin-top: 0px !important;
+  }
+
+.card-cardform-2-erroMessage-div{
+    margin: 0.25rem 0 0.5rem 0.5rem !important;
+    padding-top: 0% !important;
+    margin-top: 3px !important;
+
+}
+
+.card-cardform-2-erroMessage-div p{
+    position: absolute;
+    color: #FF0000 !important;
+    font-size: 14px !important;
+ 
+}
+
+.card-2-cardTypes {
+    position: relative;
+    top: 2.6rem;
+    right: 1rem;
+    font-size: 1.2rem;
+    color: #868686 !important;
+}
+
+.card-2-cardicons {
+    position: absolute;
+    top: 9.1rem;
+    right: 20.1rem;
+    font-size: 1.2rem;
+    color: #868686 !important;
+}
+
+
+
+ 
+ .card-2-cvcicon {
+    position: relative;
+    justify-content: space-between;
+    top: 35px;
+    right: 16px;
+    margin: -1px -6px 5px;
+    font-size: 16px;
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+
+}
+
+
+@media all and (max-width:480px) {
+    .card-2-mobile-image {
+        display: none;
+        position: relative;
+        float: right;
+        width: 30px;
+        height: 30px;
+        overflow-x: hidden;
+        right: -17.8rem;
+        top: .2rem;
+      }
+      .animation-card-2{
+        display:initial;
+        position: relative;
+        top: 2.2rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
+        width: 30px;
+        height: 30px;
+        color: #868686 !important;
+        background-image: url('./card-2-images/Visa.png');
+        background-size: cover;
+        animation-name: card-2-image-animation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes card-2-image-animation {
+        0% {background-image: url('./card-2-images/Visa.png');}
+        25% {background-image: url('./card-2-images/marstercard.png');}
+        50% {background-image: url('./card-2-images/americanexpress.png');}
+      }
+
+     
+      
+      .card-cardform-2-erroMessage-div p{
+        position: relative;
+        color: #FF0000 !important;
+        font-size: 14px !important;
+        margin-bottom: -1.7rem;
+        margin-top: 0rem;
+    }
+    .card-2-form-label {
+        margin-bottom: 14px !important;
+        margin-bottom: 0px !important;
+        color: white !important;
+        font-size: 16px !important;
+        font-weight: 300;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    #card-2-validate {
+        background:  #30313D !important;
+        width: 13rem;
+        height: 3rem;
+        font-size: 0.8rem;
+        border-radius: 20px !important;
+        box-shadow: #dcd6d6!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 5px !important;
+
+    } 
+    
+    .container-bankcard-2{
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+    .card-2-body {
+        padding-right:15px;
+        padding-left: 15px;
+    }
+    #card-2-validate {
+        background:  #30313D !important;
+        width: 14rem;
+        height: 3rem;
+        font-size: 16px !important;
+        border-radius: 20px !important;
+        box-shadow: #dcd6d6!important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        margin: auto;
+        margin-top: 35px !important;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    .card-2-cvcicon {
+        position: relative;
+        justify-content: space-between;
+        top: 32px;
+        right: 16px;
+        margin: -1px -6px 5px;
+        font-size: 16px;
+        padding-top: 0% !important;
+        padding-bottom: 0% !important;
+    
+    }
+
+}
+
+@media all and (min-width: 481px) { 
+    .card-2-cardicons {
+        position: relative;
+        top: 2.1rem;
+        right: 0.5rem;
+        font-size: 1.2rem;
+        color: #868686 !important;
+       
+    }
+
+}

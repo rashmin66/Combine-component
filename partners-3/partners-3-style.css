@@ -1,0 +1,30 @@
+.partners-3-container {
+    background: #212D63;
+}
+
+.partners-3-h2 {
+    color: #0D2C4A;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.partners-3-subheading {
+    font-weight: 500;
+    background: linear-gradient(180deg, #FDBB06 0%, rgba(255, 206, 72, 0) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.partner-3-brand-icon {
+    mask: white;
+    transform: scale(0.5);
+}
+
+@media all and (max-width: 1024px) {
+    .partner-3-brand-icon {
+        transform: scale(0.4);
+    }
+}
